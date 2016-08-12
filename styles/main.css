@@ -1,7 +1,87 @@
 .area {
-	width: 800px;
-	height: 800px;
-	background: #fbfcea;
+	width: 1500px;
+	height: 1000px;
+	background: #efefef;
 	padding: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.inputcol {
+
+	width: 50%
 	
+
+}
+
+.buttoncol {
+
+	width: 50%
+}	
+
+.topbar {
+
+	background: #5a9357;
+	padding-top: 50px;
+
+
+}
+
+.btn {
+
+	color: white;
+	border: 10px solid white;
+	
+}
+
+#key {
+
+	width: 300px;
+	background: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid white;
+	color: white;
+	margin-bottom: 10px;
+
+}
+
+#save_key {
+
+	background: none;
+	color: white;
+	border: 1px solid white;
+	margin-left: 5px;
+	
+}
+
+#save_key.select {
+
+	border: none;
+}
+
+
+input, select, textarea{
+    color: #ff0000;
+}
+
+textarea:focus, input:focus {
+    color: #ff0000;
+}
+
+
+select option {
+    margin:40px;
+    background: rgba(0,0,0,0.3);
+    color:#fff;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+    opacity: 0.4;
+    font-style: italic;
 }
