@@ -1,0 +1,12 @@
+
+{
+  "name": "pdviz",
+  "description": "Pipedrive API visualisation",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kaskkaur/PD_VIZ.git",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    
+  }
+}
